@@ -15,6 +15,7 @@ missions:
     end: 2020-12-25
     status: admin
     employer: dinum
+
 startups:
   - mes-aides
   - voir-et-localiser
