@@ -12,6 +12,7 @@ jobs:
       with:
         FILE_PATTERNS: |
           ^content/_authors/
+          ^img/authors/
         TARGET_REPOS: |
           Morendil/blog.beta.gouv.fr
         GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
