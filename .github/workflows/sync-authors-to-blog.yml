@@ -1,8 +1,8 @@
 name: Sync 'authors' content with blog.beta.gouv.fr
 on:
   push:
-    - branches: ['master']
-      paths: ['content/_authors']
+    branches: ['master']
+    paths: ['content/_authors']
 
 jobs:
   sync:
