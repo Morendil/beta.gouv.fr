@@ -6,9 +6,9 @@ missions:
     end: 2021-04-05
     status: admin
     employer: dinum
-startups:
-    - aidantsconnect
+startups: []
 previously:
+    - aidantsconnect
     - maintenant
     - mpal
     - api.gouv.fr
