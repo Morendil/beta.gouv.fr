@@ -1,0 +1,18 @@
+name: Sync 'authors' content with blog.beta.gouv.fr
+on:
+  push:
+    - branches: ['master']
+      paths: ['content/_authors']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sync
+      uses: adrianjost/files-sync-action@v1.0.1
+      with:
+        FILE_PATTERNS: |
+          ^content/_authors/*$
+        TARGET_REPOS: |
+          Morendil/blog.beta.gouv.fr
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_FILES }}
