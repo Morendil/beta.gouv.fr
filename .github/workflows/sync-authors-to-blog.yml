@@ -14,4 +14,4 @@ jobs:
           ^content/_authors/*$
         TARGET_REPOS: |
           Morendil/blog.beta.gouv.fr
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
