@@ -11,4 +11,4 @@ startups:
   - apprentissage
 ---
 
-Je m'appelle Pablo Hanry, étudiant en informatique age de 18 et je suis en alternance dans la start-up d'état mission apprentissage.
+Je m'appelle Pablo Hanry, étudiant en informatique age de 18 ans et je suis en alternance dans la start-up d'état mission apprentissage.
