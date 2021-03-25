@@ -7,5 +7,7 @@ missions:
     end: 2020-12-31
     status: admin 
 startups:
-  - Avril
+  - eva
+ previously:
+ - avril
 ---
